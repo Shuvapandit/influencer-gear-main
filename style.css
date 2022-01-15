@@ -226,15 +226,18 @@ footer{
 media query for mobile device
 ------------------------------*/
 @media only screen and (max-width:688px) {
+
+
+    
     .title-logo{
         margin-top: 10px;
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
      }
     h1{
        letter-spacing: -1px;
-        font-size: 20px;
-        margin-top: 155px;
+        font-size: 18px;
+        margin-top: 165px;
         text-align: center;
        
     }
@@ -247,15 +250,16 @@ media query for mobile device
     background-color: #E02C6D;
     padding:7px 7px;
     color: white;
-    font-weight: 130px;
+    font-weight: 20px;
     border-radius: 30px;
     
 }
     .flxconntiner{
         display: flex;
         flex-direction: row;
+    
        
-        margin-left: 200px;
+        margin-left: 50px;
         justify-items: center;
     }
     .half-width{
@@ -263,18 +267,21 @@ media query for mobile device
         padding: 5%;
     }
     .half-width img{
-        width: 60%;
-        margin-left: -175px;
+        width: 70%;
+        margin-left: -150px;
         background: #F1E4FF;
         border-radius: 50% ;
-        margin-top: 50%;
+        margin-top: 60%;
         
         
       
     }
+    
     /*start popular part */
+    
     .section-title{
         text-align: center;
+        
     }
     .cntnr{
         background-color: #FFFFFF;
@@ -301,6 +308,7 @@ media query for mobile device
 #c{
     margin-left: -290px;
 }
+
 /*contact responsive */
 .contact-form h1{
     font-size:25px;
@@ -321,7 +329,7 @@ media query for mobile device
     border-radius: 2px;
     margin-bottom: 150px;
     margin-top: 25px;
-    margin-left: 100px;
+    margin-left: 50px;
     padding-left: 10px;
     padding-right: 15px;
     padding-top: 100px;
@@ -335,52 +343,132 @@ media query for mobile device
 
 
 
-
 }
+
+
 /*end popular part */
     
 
 
-/*end popular part */
+
     
 
     
     /*--For tab device-*/
 
     @media only screen and (min-width:688px) and (max-width:992px) {
-.flxconntiner
-{
-display:grid;
-grid-template-columns: 1fr;
-justify-content: center;
-
-}
-.half-width{
-    width: 30%;
-  
-}
-.half-width img{
-    width: 40%;
-    border-radius: 50% ;
-    margin-top: 10%;
+        .title-logo{
+            margin-top: 10px;
+            font-size: 15px;
+            text-align: center;
+            margin-left: 90px;
+         }
+        h1{
+           letter-spacing: -1px;
+           margin-left: 50px;
+            font-size: 18px;
+            margin-top: 165px;
+            text-align: center;
+           
+        }
+        p{
+            font-size: 10px;
+        }
+        .btn
+    {
+        text-decoration: none;
+        background-color: #E02C6D;
+        padding:7px 7px;
+        color: white;
+        font-weight: 20px;
+        border-radius: 30px;
+        
+    }
+        .flxconntiner{
+            display: flex;
+            flex-direction: row;
+        
+           
+            margin-left: 50px;
+            justify-items: center;
+        }
+        .half-width{
+            width: 60%;
+            padding: 5%;
+        }
+        .half-width img{
+            width: 40%;
+            margin-left: -300px;
+            background: #F1E4FF;
+            border-radius: 50% ;
+            margin-top: 10%;
+            
+            
+          
+        }
+        
+        /*start popular part */
+        
+        .section-title{
+            text-align: center;
+            
+        }
+        .cntnr{
+            background-color: #FFFFFF;
+            width: 300px;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 4px;
+           justify-content: center;
+           margin-left: -350px;
+           
+        }
     
     
-  
-}
-main
-{
-    display: flex;
-align-items: center;
-flex-direction: column;
-
-
-
-}
-.collections{
-    display: grid;
-    grid-template-columns: repeat(2,fr);
-    grid-column-gap: 24px;
-
-}
+    .collections{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 24px;
+    
+    }
+    
+    .collection-banner img {
+        width: 300px;
+        height: 200px;
+    }
+    #c{
+        margin-left: -80px;
+    }
+    
+    /*contact responsive */
+    .contact-form h1{
+        font-size:25px;
+        margin-top: -20px;
+     
+    }
+    .contact-form p{
+        margin-top: -10px;
+    }
+    
+    .from-cont{
+        text-align: center;
+        box-shadow: 2px 3px 3px 3px #AAAAAA;
+       
+        width:50%;
+        height: 200%;
+        
+        border-radius: 2px;
+        margin-bottom: 150px;
+        margin-top: 25px;
+        margin-left: 50px;
+        padding-left: 10px;
+        padding-right: 15px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
+    
+        
+    
+    }
          }
 
