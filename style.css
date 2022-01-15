@@ -253,7 +253,7 @@ media query for mobile device
 }
     .flxconntiner{
         display: flex;
-        flex-direction: row;
+        grid-template-columns: 1fr;
         margin-left: 200px;
         justify-items: center;
     }
