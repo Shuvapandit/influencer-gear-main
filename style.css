@@ -221,19 +221,20 @@ footer{
 }
 /* end footer section*/
 
+
 /*----------------------------
 media query for mobile device
 ------------------------------*/
 @media only screen and (max-width:688px) {
     .title-logo{
         margin-top: 10px;
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
      }
     h1{
        letter-spacing: -1px;
-        font-size: 18px;
-        margin-top: 130px;
+        font-size: 20px;
+        margin-top: 155px;
         text-align: center;
        
     }
@@ -252,7 +253,8 @@ media query for mobile device
 }
     .flxconntiner{
         display: flex;
-        grid-template-columns: repeat(1,1fr);
+        flex-direction: row;
+        margin-left: 200px;
         justify-items: center;
     }
     .half-width{
@@ -260,11 +262,11 @@ media query for mobile device
         padding: 5%;
     }
     .half-width img{
-        width: 70%;
-        margin-left: -170px;
+        width: 50%;
+        margin-left: -175px;
         background: #F1E4FF;
         border-radius: 50% ;
-        margin-top: 60%;
+        margin-top: 50%;
         
         
       
@@ -279,6 +281,7 @@ media query for mobile device
         padding: 20px;
         margin-top: 20px;
         border-radius: 4px;
+       justify-content: center;
        
     }
 
@@ -336,11 +339,47 @@ media query for mobile device
 /*end popular part */
     
 
+
+/*end popular part */
+    
+
     
     /*--For tab device-*/
 
     @media only screen and (min-width:688px) and (max-width:992px) {
-       
+.flxconntiner
+{
+display:grid;
+grid-template-columns: 1fr;
+justify-content: center;
+
+}
+.half-width{
+    width: 30%;
+  
+}
+.half-width img{
+    width: 40%;
+    border-radius: 50% ;
+    margin-top: 10%;
     
-        }
+    
+  
+}
+main
+{
+    display: flex;
+align-items: center;
+flex-direction: column;
+
+
+
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+    grid-column-gap: 24px;
+
+}
+         }
 
