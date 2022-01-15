@@ -253,16 +253,17 @@ media query for mobile device
 }
     .flxconntiner{
         display: flex;
-        grid-template-columns: 1fr;
+        flex-direction: row;
+       
         margin-left: 200px;
         justify-items: center;
     }
     .half-width{
-        width: 50%;
+        width: 60%;
         padding: 5%;
     }
     .half-width img{
-        width: 50%;
+        width: 60%;
         margin-left: -175px;
         background: #F1E4FF;
         border-radius: 50% ;
